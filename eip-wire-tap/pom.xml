@@ -46,7 +46,7 @@
             <artifactId>camel-spring-boot</artifactId>
             <version>${camel.version}</version>
         </dependency>
-
+        
         <!-- Testing -->
         <dependency>
             <groupId>com.github.sbrannen</groupId>

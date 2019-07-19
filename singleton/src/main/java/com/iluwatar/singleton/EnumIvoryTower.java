@@ -27,6 +27,8 @@ package com.iluwatar.singleton;
  *
  * This implementation is thread safe, however adding any other method and its thread safety
  * is developers responsibility.
+ *
+ * 枚举类都是单例模式
  */
 public enum EnumIvoryTower {
 

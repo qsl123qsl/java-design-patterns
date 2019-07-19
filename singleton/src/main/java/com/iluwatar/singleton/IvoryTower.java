@@ -24,6 +24,8 @@ package com.iluwatar.singleton;
 
 /**
  * Singleton class. Eagerly initialized static instance guarantees thread safety.
+ *
+ * 饿汉式，不管你需不需要，先给你new一个对象再说
  */
 public final class IvoryTower {
 

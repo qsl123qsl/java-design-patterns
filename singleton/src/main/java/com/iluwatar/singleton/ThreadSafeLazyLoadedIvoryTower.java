@@ -24,6 +24,8 @@ package com.iluwatar.singleton;
  *
  * Note: if created by reflection then a singleton will not be created but multiple options in the
  * same classloader
+ *
+ * 懒汉式，只有需要的时候，才会new一个对象，后续就只用这个对象
  */
 public final class ThreadSafeLazyLoadedIvoryTower {
 

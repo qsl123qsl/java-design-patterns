@@ -56,7 +56,9 @@ public class App {
 
   /**
    * Program entry point
-   * 
+   * 建造者模式即builder模式
+   *
+   * 适用情况：类属性比较多的情况下，可能构造函数需要多个，可采用下述这种操作
    * @param args command line args
    */
   public static void main(String[] args) {

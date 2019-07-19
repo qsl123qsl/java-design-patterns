@@ -34,6 +34,8 @@ package com.iluwatar.singleton;
  * the moment that getInstance() is called. Thus, this solution is thread-safe without requiring special
  * language constructs (i.e. volatile or synchronized).
  *
+ *
+ * 静态内部类的单例方式
  */
 public final class InitializingOnDemandHolderIdiom {
 

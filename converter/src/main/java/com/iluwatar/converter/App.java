@@ -33,6 +33,8 @@ import java.util.List;
  * conversion between corresponding types (e.g. DTO and domain representations of the logically
  * isomorphic types). Moreover, the pattern introduces a common way of converting a collection of
  * objects between types.
+ *
+ * 两个对象之间的转换  DTO对象与Entity对象
  */
 public class App {
   /**

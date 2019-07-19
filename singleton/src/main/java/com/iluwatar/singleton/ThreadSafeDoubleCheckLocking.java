@@ -30,6 +30,8 @@ package com.iluwatar.singleton;
  * Broken under Java 1.4.
  *
  * @author mortezaadi@gmail.com
+ *
+ * 双重校验锁===线程安全
  */
 public final class ThreadSafeDoubleCheckLocking {
 

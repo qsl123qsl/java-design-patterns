@@ -162,10 +162,11 @@
         <module>trampoline</module>
         <module>serverless</module>
         <module>ambassador</module>
-	<module>acyclic-visitor</module>
-	<module>collection-pipeline</module>
-	<module>master-worker-pattern</module>
-	<module>spatial-partition</module>
+        <module>acyclic-visitor</module>
+        <module>collection-pipeline</module>
+        <module>master-worker-pattern</module>
+        <module>spatial-partition</module>
+        <module>service-provider</module>
     </modules>
 
     <repositories>
@@ -385,31 +386,6 @@
                 </executions>
             </plugin>
 
-            <!--checkstyle plug-in. checking against googles styles
-               see config at checkstyle.xml
-            -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>2.17</version>
-                <executions>
-                    <execution>
-                        <id>validate</id>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                        <phase>validate</phase>
-                        <configuration>
-                            <configLocation>checkstyle.xml</configLocation>
-                            <suppressionsLocation>checkstyle-suppressions.xml</suppressionsLocation>
-                            <encoding>UTF-8</encoding>
-                            <consoleOutput>true</consoleOutput>
-                            <failsOnError>true</failsOnError>
-                            <includeTestSourceDirectory>true</includeTestSourceDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

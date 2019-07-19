@@ -49,6 +49,10 @@ public class App {
    * Program entry point
    * 
    * @param args command line args
+   *
+   * 观察者模式
+   *
+   * 需要观察者，被观察者
    */
   public static void main(String[] args) {
 
